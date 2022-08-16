@@ -1,42 +1,45 @@
-body {
-    width: 375px; 
+* {
+    margin: 0 ; 
+    padding: 10px ; 
+    
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7rem;
+    word-spacing: 2px;
+}
+
+body {     
     background-color: hsl(30, 38%, 92%);
 }
 
 .container {
-    background-color: white; 
-    padding: 20px 0; 
+    width: 375px;
+    background-color: white;  
     display: flex;
     flex-direction: column;
-    
+    border-radius: 2ch;  
 }
 
 .container__perfume {
     color: hsl(228, 12%, 48%); 
     font-family: 'Montserrat', sans-serif; 
     font-weight: 500;
+
+    letter-spacing: 5px;
 }
 
-.container__nombre {
+
+.container__name {
     color: hsl(212, 21%, 14%); 
     font-family: 'Fraunces', serif; 
-    font-weight: 700; 
+    font-weight: 700;
 }
 
-p {
-    color: hsl(228, 12%, 48%);
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif; 
-    font-weight: 500;
-}
 
-* {
-    margin: 0; 
-    padding: 10px; 
-    box-sizing: border-box;
-}
-
-.container__precio { 
+.container__price { 
     color: hsl(158, 36%, 37%);
     font-family: 'Fraunces', serif; 
     font-weight: 700;
@@ -48,4 +51,17 @@ p {
 
 .container__strike {
     align-self: center;
+    color: hsl(228, 12%, 48%);
+}
+
+.container__img {
+    border-top-left-radius: 3ch;
+    border-top-right-radius: 3ch ;
+}
+
+.container__button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 1ch;
+    border: 2px solid hsl(158, 36%, 37%);
 }
