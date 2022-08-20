@@ -3,7 +3,6 @@ p {
     color: hsl(228, 12%, 48%);
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7rem;
-    word-spacing: 2px;
 }
 
 body {     
@@ -18,8 +17,8 @@ button {
     border-radius: 1ch; 
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 7px 110px;      
+    padding: 10px 120px;
+    border: 1px solid transparent;      
 }
 
 .container {
@@ -28,7 +27,7 @@ button {
     display: flex;
     flex-direction: column;
     border-radius: 2ch;
-    border: 2px solid black;  
+     
 }
 
 .container__perfume {
@@ -59,18 +58,24 @@ button {
 .container__strike {
     align-self: center;
     color: hsl(228, 12%, 48%);
+    margin-left: 25px;
 }
 
 .container__img {
-    border-top-left-radius: 3ch;
-    border-top-right-radius: 3ch ;    
+    border-top-left-radius: 2ch;
+    border-top-right-radius: 2ch ;    
 }
 
 .container__button {
     display: flex;
-    justify-content: center;    
+    max-width: 375px;
+    height: 50px;
+
 }
 
 .container__elements {
-    padding: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
 }
